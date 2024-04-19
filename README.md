@@ -18,7 +18,7 @@ Clone repository ini ke dalam direktori `htdocs` di dalam instalasi XAMPP atau d
    ```
 3. kemudian clone dengan perintah berikut
     ```bash
-    git clone https://github.com/user/repository.git case-4-FileHandling
+    git clone https://github.com/fiebryhoga/Case-4-FileHandling.git
     ```
 ### Menjalankan Program
 Buka browser web dan arahkan ke URL program PHP ini. 
