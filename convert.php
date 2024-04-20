@@ -5,7 +5,6 @@ Alya Andini Prasetyo – 225150600111018 -->
 
 <?php
 
-
 $inputFile = $_GET['infile'];
 $outputFile = $_GET['outfile'];
 $from = $_GET['from'];
@@ -13,7 +12,7 @@ $to = $_GET['to'];
 
 $content = file_get_contents($inputFile);
 
-$content = str_replace($from, $to, $content);
+$content = str_ireplace($from, $to, $content);
 
 file_put_contents($outputFile, $content);
 
